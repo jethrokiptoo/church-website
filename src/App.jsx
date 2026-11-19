@@ -87,7 +87,7 @@ function App() {
     <div className="site-shell">
       <header className="topbar">
         <a className="brand" href="#home" aria-label="Hope Celebration Center home">
-          <span className="brand-mark" aria-hidden="true">✦</span>
+          <img className="brand-mark" src="/hope-mark.svg" alt="" />
           <span>Hope Celebration Center</span>
         </a>
         <a className="header-link" href="#registration">Member registration <span aria-hidden="true">↗</span></a>
@@ -95,6 +95,7 @@ function App() {
 
       <main id="home">
         <section className="hero">
+          <img className="hero-illustration" src="/church-background.svg" alt="" />
           <div className="hero-content">
             <p className="eyebrow"><span className="eyebrow-line" />WELCOME HOME</p>
             <h1>There’s a place<br />for <em>you here.</em></h1>
@@ -102,13 +103,6 @@ function App() {
               Join the Hope Celebration Center family. Share a few details so we can welcome you and stay connected.
             </p>
             <a className="hero-link" href="#registration">Register as a member <span aria-hidden="true">↓</span></a>
-          </div>
-          <div className="hero-art" aria-hidden="true">
-            <div className="sun-disc" />
-            <div className="art-arch art-arch-back" />
-            <div className="art-arch art-arch-front" />
-            <div className="art-cross">✦</div>
-            <div className="art-caption">Faith · Family · Hope</div>
           </div>
           <div className="hero-bottom">
             <span>HOPE CELEBRATION CENTER</span>
@@ -231,7 +225,7 @@ function App() {
         </section>
       </main>
       <footer className="footer">
-        <a className="footer-brand" href="#home"><span className="brand-mark" aria-hidden="true">✦</span> Hope Celebration Center</a>
+        <a className="footer-brand" href="#home"><img className="brand-mark" src="/hope-mark.svg" alt="" /> Hope Celebration Center</a>
         <span>Welcoming every generation into a family of faith.</span>
       </footer>
     </div>
