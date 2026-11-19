@@ -95,7 +95,7 @@ function App() {
 
       <main id="home">
         <section className="hero">
-          <img className="hero-illustration" src="/church-background.svg" alt="" />
+          <img className="hero-illustration" src="/hope-celebration-photo.jpg" alt="" />
           <div className="hero-content">
             <p className="eyebrow"><span className="eyebrow-line" />WELCOME HOME</p>
             <h1>There’s a place<br />for <em>you here.</em></h1>
